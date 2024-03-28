@@ -2,7 +2,7 @@
 
 import os
 
-os.chdir('C:\\Users\\rodsp\\Documents\\classroom\\classroom_py\\teste') # entra pasta (diretório) onde tem arquivos a serem tratados
+os.chdir('D:\\classroom\\classroom_py\\teste') # entra pasta (diretório) onde tem arquivos a serem tratados
 print(f'Diretório atual: {os.getcwd()}') # informa o a pasta para verificar se esta correto 
 
 padrao_nome = input('Qual o padrão de nomes de arquivos a usar (sem a extensão) ? ') # pede o nome padrão desejado pelo usuário
